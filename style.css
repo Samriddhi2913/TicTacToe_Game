@@ -6,3 +6,17 @@ body{
     background-color:#CAF0F8;
     text-align:center;
 }
+.container{
+    /* webpage 70 % part is given to container */
+    height:70vh;  
+}
+.game{
+    height: 60vmin;
+    width:60vmin;
+    justify-content: center;
+    align-items: center;;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+}
