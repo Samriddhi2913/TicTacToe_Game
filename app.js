@@ -24,5 +24,6 @@ boxes.forEach((box)=>{
             box.innerText="X";
             turnO=true;
         }
+        box.disabled=true;
     })
 })

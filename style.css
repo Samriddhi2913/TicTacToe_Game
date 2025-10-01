@@ -30,7 +30,8 @@ body{
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.2);
     font-size: 8vmin;
-    color: #00b4d8;
+    color: #caf0f8;
+    background-color:#0077b6;
 }
 #reset-btn{
     padding: 1rem;
