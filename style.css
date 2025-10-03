@@ -41,3 +41,18 @@ body{
     border-radius: 1rem;
     border:none;
 }
+#newBtn{
+    padding: 1rem;
+    font-size:1.25rem;
+    background-color:#03045e;
+    color:white;
+    border-radius: 1rem;
+    border:none;
+}
+#msg{
+    color:#0077b6;
+    font-size: 5vmin;
+}
+.msg-container{
+    height: 30vmin;
+}
