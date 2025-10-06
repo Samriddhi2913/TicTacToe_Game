@@ -18,6 +18,7 @@ const winPatterns=[
 
 const resetGame=()=>{
     turnO=false;
+    enableBoxes();
 }
 
 boxes.forEach((box)=>{
@@ -45,6 +46,7 @@ const disableBoxes=()=>{
 const enableBoxes=()=>{
     for(let box of boxes){
         box.disabled=false;
+        box.innerText="";
     }
 }
 
