@@ -41,6 +41,13 @@ const disableBoxes=()=>{
         box.disabled=true;
     }
 }
+
+const enableBoxes=()=>{
+    for(let box of boxes){
+        box.disabled=false;
+    }
+}
+
 const showWinner=(winner)=>{
     msg.innerText =  `Congratulations! Winner is ${winner}`;
     msgContainer.classList.remove("hide");
