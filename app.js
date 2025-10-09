@@ -20,7 +20,7 @@ const resetGame=()=>{
     turnO=false;
     enableBoxes();
     msgContainer.classList.add("hide");
-}
+};
 
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
@@ -71,3 +71,5 @@ const checkWinner=()=>{
         }
     }  
 };
+newGameBtn.addEventListener("click",resetGame);
+resetBtn.addEventListener("click",resetGame);
